@@ -16,7 +16,8 @@ header{
         margin: 1px;
         padding: 5px;
         height: 20px;
-        background-color: rgb(141, 187, 187);
+        background-color: black;
+        color: white;
         border: 2px black;
         border-style: double;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -24,7 +25,6 @@ header{
         text-align: center;
     }
     h1{
-        padding-top: 10px;
         font-size: 60px;
         text-align: center;
         font-family: 'Permanent Marker', cursive;
@@ -41,5 +41,13 @@ header{
         font-family: 'Fredoka One', cursive;
         text-decoration: none;
     }
+}
+.bannerp{
+    margin: 50px;
+    width: 1180px;
+    height: 200px;
+    background-image: url(/multimedia/bannerp.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
