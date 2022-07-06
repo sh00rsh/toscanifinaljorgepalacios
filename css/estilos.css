@@ -45,6 +45,12 @@ header h1 {
   background-size: cover;
 }
 
+.sections {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 aside h3 {
   font-size: 50px;
   color: darkgoldenrod;
@@ -63,6 +69,53 @@ aside h3 {
 }
 .navs a:hover {
   color: darkgoldenrod;
+}
+
+.galeria1 {
+  width: 80%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 600px 600px 600px;
+}
+
+.item {
+  margin: 10px;
+}
+
+.item1 {
+  background-image: url(/multimedia/bermuda1.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.item2 {
+  background-image: url(/multimedia/jean1.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.item3 {
+  background-image: url(/multimedia/remera1.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.item4 {
+  background-image: url(/multimedia/pantalon1.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.item5 {
+  background-image: url(/multimedia/camisa1.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.item6 {
+  background-image: url(/multimedia/buzo1.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
 /*# sourceMappingURL=estilos.css.map */
