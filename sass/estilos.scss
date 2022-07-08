@@ -12,17 +12,40 @@
     margin: 0;
 }
 header{
-    h2{
+    .head{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
         margin: 1px;
-        padding: 5px;
-        height: 20px;
-        background-color: black;
-        color: white;
+        height: 28px;
         border: 2px black;
         border-style: double;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 15px;
-        text-align: center;
+        background-color: black;
+        h2{
+            padding: 5px;
+            color: white;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 15px;
+            text-align: center;
+        }
+        .redes{
+            display: inline-flex;
+            .facebook{
+                padding: 2px;
+                font-size: 25px;
+                color: blue;
+            }
+            .instagram{
+                padding: 2px;
+                font-size: 25px;
+                color: red;
+            }
+            .whatsapp{
+                padding: 2px;
+                font-size: 25px;
+                color: green;
+            }
+        }
     }
     h1{
         font-size: 60px;
@@ -55,7 +78,7 @@ header{
     flex-direction: row;
     justify-content: space-between;
 }
-aside h3{
+h3{
     font-size: 50px;
     color: darkgoldenrod;
 }
@@ -73,6 +96,107 @@ aside h3{
         color: darkgoldenrod;
     }
 }
+.color{
+    display: flex;
+    flex-direction: column;
+    a{
+                padding: 2px;
+                font-size: 20px;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                padding: 10px;
+                text-decoration: none;
+    }
+    }
+    .negro{
+        margin-top: 50px;
+        border: 1px solid;
+        border-color: black;
+        text-align: center;
+        width: 150px;
+        height: 27px;
+        background-color: black;
+        a{
+            color: white;
+        }
+        a:hover{
+            color: darkgoldenrod;
+            }
+    }
+    .blanco{
+        margin-top: 50px;
+        border: 1px solid;
+        border-color: black;
+        text-align: center;
+        width: 150px;
+        height: 27px;
+        background-color: white;
+        a{
+            color: black;
+        }
+        a:hover{
+            color: darkgoldenrod;
+            }
+    }
+    .azul{
+        margin-top: 50px;
+        border: 1px solid;
+        border-color: black;
+        text-align: center;
+        width: 150px;
+        height: 27px;
+        background-color: blue;
+        a{
+            color: rgb(255, 217, 0);
+        }
+        a:hover{
+            color: darkgoldenrod;
+            }
+    }
+    .rojo{
+        margin-top: 50px;
+        border: 1px solid;
+        border-color: black;
+        text-align: center;
+        width: 150px;
+        height: 27px;
+        background-color: red;
+        a{
+            color: rgb(0, 174, 255);
+        }
+        a:hover{
+        color: darkgoldenrod;
+        }
+    }
+    .verde{
+        margin-top: 50px;
+        border: 1px solid;
+        border-color: black;
+        text-align: center;
+        width: 150px;
+        height: 27px;
+        background-color: green;
+        a{
+            color: rgba(165, 54, 54, 0.712);
+        }
+        a:hover{
+            color: darkgoldenrod;
+            }
+    }
+    .naranja{
+        margin-top: 50px;
+        border: 1px solid;
+        border-color: black;
+        text-align: center;
+        width: 150px;
+        height: 27px;
+        background-color: orange;
+        a{
+            color: rgb(0, 255, 106);
+        }
+        a:hover{
+            color: darkgoldenrod;
+            }
+    }
 .galeria1{
     width: 80%;
     display: grid;
@@ -113,6 +237,8 @@ aside h3{
     background-position: center;
     background-size: cover;
 }
+
+
 
 
 

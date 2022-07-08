@@ -5,17 +5,40 @@
   margin: 0;
 }
 
-header h2 {
+header .head {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   margin: 1px;
-  padding: 5px;
-  height: 20px;
-  background-color: black;
-  color: white;
+  height: 28px;
   border: 2px black;
   border-style: double;
+  background-color: black;
+}
+header .head h2 {
+  padding: 5px;
+  color: white;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 15px;
   text-align: center;
+}
+header .head .redes {
+  display: inline-flex;
+}
+header .head .redes .facebook {
+  padding: 2px;
+  font-size: 25px;
+  color: blue;
+}
+header .head .redes .instagram {
+  padding: 2px;
+  font-size: 25px;
+  color: red;
+}
+header .head .redes .whatsapp {
+  padding: 2px;
+  font-size: 25px;
+  color: green;
 }
 header h1 {
   font-size: 60px;
@@ -51,7 +74,7 @@ header h1 {
   justify-content: space-between;
 }
 
-aside h3 {
+h3 {
   font-size: 50px;
   color: darkgoldenrod;
 }
@@ -68,6 +91,114 @@ aside h3 {
   text-decoration: none;
 }
 .navs a:hover {
+  color: darkgoldenrod;
+}
+
+.color {
+  display: flex;
+  flex-direction: column;
+}
+.color a {
+  padding: 2px;
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.negro {
+  margin-top: 50px;
+  border: 1px solid;
+  border-color: black;
+  text-align: center;
+  width: 150px;
+  height: 27px;
+  background-color: black;
+}
+.negro a {
+  color: white;
+}
+.negro a:hover {
+  color: darkgoldenrod;
+}
+
+.blanco {
+  margin-top: 50px;
+  border: 1px solid;
+  border-color: black;
+  text-align: center;
+  width: 150px;
+  height: 27px;
+  background-color: white;
+}
+.blanco a {
+  color: black;
+}
+.blanco a:hover {
+  color: darkgoldenrod;
+}
+
+.azul {
+  margin-top: 50px;
+  border: 1px solid;
+  border-color: black;
+  text-align: center;
+  width: 150px;
+  height: 27px;
+  background-color: blue;
+}
+.azul a {
+  color: rgb(255, 217, 0);
+}
+.azul a:hover {
+  color: darkgoldenrod;
+}
+
+.rojo {
+  margin-top: 50px;
+  border: 1px solid;
+  border-color: black;
+  text-align: center;
+  width: 150px;
+  height: 27px;
+  background-color: red;
+}
+.rojo a {
+  color: rgb(0, 174, 255);
+}
+.rojo a:hover {
+  color: darkgoldenrod;
+}
+
+.verde {
+  margin-top: 50px;
+  border: 1px solid;
+  border-color: black;
+  text-align: center;
+  width: 150px;
+  height: 27px;
+  background-color: green;
+}
+.verde a {
+  color: rgba(165, 54, 54, 0.712);
+}
+.verde a:hover {
+  color: darkgoldenrod;
+}
+
+.naranja {
+  margin-top: 50px;
+  border: 1px solid;
+  border-color: black;
+  text-align: center;
+  width: 150px;
+  height: 27px;
+  background-color: orange;
+}
+.naranja a {
+  color: rgb(0, 255, 106);
+}
+.naranja a:hover {
   color: darkgoldenrod;
 }
 
