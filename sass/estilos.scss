@@ -66,13 +66,18 @@ header{
     }
 }
 .bannerp{
+    display: grid;
+    grid-column: 100%;
+    grid-row: 1180px;
     margin: 50px;
-    width: 1180px;
     height: 200px;
     background-image: url(/multimedia/bannerp.jpg);
     background-position: center;
     background-size: cover;
 }
+
+//comienzo de aside!!
+
 .sections{
     display: flex;
     flex-direction: row;
@@ -197,46 +202,516 @@ h3{
             color: darkgoldenrod;
             }
     }
+    .gris{
+        margin-top: 50px;
+        border: 1px solid;
+        border-color: black;
+        text-align: center;
+        width: 150px;
+        height: 27px;
+        background-color: grey;
+        a{
+            color: black;
+        }
+        a:hover{
+            color: darkgoldenrod;
+            }
+    }
+
+//comienzo galeria inicial!
+
 .galeria1{
     width: 75%;
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 600px 600px 600px;
+    grid-template-rows: 600px 600px 600px 600px 600px;
 }
 .item{
 
     margin: 10px;
 }
 .item1{
-    background-image: url(/multimedia/bermuda1.jpg);
+    background-image: url(/multimedia/bermuda1b.jpg);
     background-position: center;
     background-size: cover;
 }
 .item2{
-    background-image: url(/multimedia/jean1.jpg);
+    background-image: url(/multimedia/jean1a.jpg);
     background-position: center;
     background-size: cover;
 }
 .item3{
-    background-image: url(/multimedia/remera1.jpg);
+    background-image: url(/multimedia/remera1b.jpg);
     background-position: center;
     background-size: cover;
 }
 .item4{
-    background-image: url(/multimedia/pantalon1.jpg);
+    background-image: url(/multimedia/pantalon1v.jpg);
     background-position: center;
     background-size: cover;
 }
 .item5{
-    background-image: url(/multimedia/camisa1.jpg);
+    background-image: url(/multimedia/camisa1v.jpg);
     background-position: center;
     background-size: cover;
 }
 .item6{
-    background-image: url(/multimedia/buzo1.jpg);
+    background-image: url(/multimedia/buzo1g.jpg);
     background-position: center;
     background-size: cover;
 }
+.item7{
+    background-image: url(/multimedia/buzo2n.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.item8{
+    background-image: url(/multimedia/remera2a.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.item9{
+    background-image: url(/multimedia/short1n.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.item10{
+    background-image: url(/multimedia/campera1v.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+//comienzo de galeria por colores!
+
+.galeria-n{
+    width: 75%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 600px 600px 600px;
+}
+.item11{
+    background-image: url(/multimedia/remera3n.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.item12{
+    background-image: url(/multimedia/campera2n.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.item13{
+    background-image: url(/multimedia/pantalon2n.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.item14{
+    background-image: url(/multimedia/buzo2n.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.item15{
+    background-image: url(/multimedia/short1n.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.galeria-b{
+    width: 75%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 600px 600px 600px;
+}
+.item16{
+    background-image: url(/multimedia/remera1b.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.item17{
+    background-image: url(/multimedia/calzado1b.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.item18{
+    background-image: url(/multimedia/pantalon3b.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.item19{
+    background-image: url(/multimedia/bermuda1b.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.item20{
+    background-image: url(/multimedia/remera4b.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.galeria-a{
+    width: 75%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 600px 600px 600px;
+}
+.item21{
+    background-image: url(/multimedia/remera2a.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.item22{
+    background-image: url(/multimedia/buzo3a.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.item23{
+    background-image: url(/multimedia/pantalon4a.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.item24{
+    background-image: url(/multimedia/campera3a.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.item25{
+    background-image: url(/multimedia/jean1a.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.galeria-r{
+    width: 75%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 600px;
+}
+.item26{
+    background-image: url(/multimedia/camisa2r.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.item27{
+    background-image: url(/multimedia/);
+    background-position: center;
+    background-size: cover;
+}
+.item28{
+    background-image: url(/multimedia/);
+    background-position: center;
+    background-size: cover;
+}
+.item29{
+    background-image: url(/multimedia/);
+    background-position: center;
+    background-size: cover;
+}
+.item30{
+    background-image: url(/multimedia/);
+    background-position: center;
+    background-size: cover;
+}
+.galeria-v{
+    width: 75%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 600px 600px 600px;
+}
+.item31{
+    background-image: url(/multimedia/short4v.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.item32{
+    background-image: url(/multimedia/calzado2v.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.item33{
+    background-image: url(/multimedia/campera1v.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.item34{
+    background-image: url(/multimedia/pantalon1v.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.item35{
+    background-image: url(/multimedia/camisa1v.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.galeria-n{
+    width: 75%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 600px;
+}
+.item36{
+    background-image: url(/multimedia/camisa3n.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.item37{
+    background-image: url(/multimedia/);
+    background-position: center;
+    background-size: cover;
+}
+.item38{
+    background-image: url(/multimedia/);
+    background-position: center;
+    background-size: cover;
+}
+.item39{
+    background-image: url(/multimedia/);
+    background-position: center;
+    background-size: cover;
+}
+.item40{
+    background-image: url(/multimedia/);
+    background-position: center;
+    background-size: cover;
+}
+.galeria-g{
+    width: 75%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 600px;
+}
+.item81{
+    background-image: url(/multimedia/buzo1g.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+//comienzo de galeria por tipo de prenda!
+
+.galeria-rem{
+    width: 75%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 600px 600px;
+}
+.item41{
+    background-image: url(/multimedia/remera1b.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.item42{
+    background-image: url(/multimedia/remera2a.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.item43{
+    background-image: url(/multimedia/remera3n.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.item44{
+    background-image: url(/multimedia/remera4b.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.galeria-buz{
+    width: 75%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 600px 600px;
+}
+.item46{
+    background-image: url(/multimedia/buzo1g.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.item47{
+    background-image: url(/multimedia/buzo2n.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.item48{
+    background-image: url(/multimedia/buzo3a.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.item49{
+    background-image: url(/multimedia/buzo4v.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.item50{
+    background-image: url(/multimedia/camisa1v.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.galeria-camp{
+    width: 75%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 600px 600px;
+}
+.item51{
+    background-image: url(/multimedia/campera1v.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.item52{
+    background-image: url(/multimedia/campera2n.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.item53{
+    background-image: url(/multimedia/campera3a.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.galeria-jeans{
+    width: 75%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 600px;
+}
+.item56{
+    background-image: url(/multimedia/jean1a.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.galeria-pant{
+    width: 75%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 600px 600px;
+}
+.item61{
+    background-image: url(/multimedia/pantalon1v.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.item62{
+    background-image: url(/multimedia/pantalon2n.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.item63{
+    background-image: url(/multimedia/pantalon3b.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.item64{
+    background-image: url(/multimedia/pantalon4a.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.galeria-shorts{
+    width: 75%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 600px 600px;
+}
+.item66{
+    background-image: url(/multimedia/short1n.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.item67{
+    background-image: url(/multimedia/short2b.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.item68{
+    background-image: url(/multimedia/short3a.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.item69{
+    background-image: url(/multimedia/short4v.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.galeria-cal{
+    width: 75%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 600px;
+}
+.item71{
+    background-image: url(/multimedia/calzado1b.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.item72{
+    background-image: url(/multimedia/calzado2v.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.galeria-accesorio{
+    width: 75%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 600px 600px;
+}
+.item76{
+    background-image: url(/multimedia/accesorio1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.item77{
+    background-image: url(/multimedia/accesorio2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.item78{
+    background-image: url(/multimedia/accesorio3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+//comienzo de footer!
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 150px;
+}
+.foot1{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    h4{
+        padding-bottom: 15px;
+        font-size: 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    a{
+        padding-bottom: 5px;
+        text-decoration: none;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: black;
+    }
+    a:hover{
+        color: darkgrey;
+    }
+
+}
+.foot2{
+    padding-top: 10px;
+    .facebook{
+        padding: 2px;
+        font-size: 25px;
+        color: blue;
+    }
+    .instagram{
+        padding: 2px;
+        font-size: 25px;
+        color: red;
+    }
+    .whatsapp{
+        padding: 2px;
+        font-size: 25px;
+        color: green;
+    }
+}
+
 
 
 
