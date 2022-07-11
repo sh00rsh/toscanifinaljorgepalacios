@@ -203,7 +203,7 @@ h3 {
 }
 
 .galeria1 {
-  width: 80%;
+  width: 75%;
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: 600px 600px 600px;
